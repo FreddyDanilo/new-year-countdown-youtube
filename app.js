@@ -27,4 +27,5 @@ const countdown = () => {
   render(days, hours, minutes, seconds);
 };
 
+countdown();
 setInterval(countdown, 1000);
